@@ -16,4 +16,4 @@ After finished this task, use the command `db.users.find()` to checkout all the 
 
 **NOTE** If you are unlucky to get suck in here, please don't worry too much, we provied some tips under each task folder. 
 
-Just Enjoy Your Journey!
+Enjoy Your Journey!
