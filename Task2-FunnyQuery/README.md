@@ -1,4 +1,4 @@
-# Task 2 - Funny Querry
+# Task 2 - Funny Querry I
 
 Hi, noivce! Congratulations! You completed your first task, but here is no way to stop it! We received the second task immediately. This time we will insert a new data and also using some query commands to list out the data we want to show.
 
@@ -14,13 +14,15 @@ Hi, noivce! Congratulations! You completed your first task, but here is no way t
 
 Step 1: Insert Candy's & Tommy's data
 <br>
+![image](https://user-images.githubusercontent.com/63136573/178392948-47f768bf-ca4e-4f88-a453-a872b86a767e.png)
 
-Step 2: List out the data by sorting Address descending
+Step 2: Descending the Address and list them out
 <br>
+![image](https://user-images.githubusercontent.com/63136573/178393099-3fb772f9-c2e0-4883-b596-640bb0d12ed4.png)
 
-Step 3: Find out the two older members and show out with name only (no _id)
+Step 3: Find out the two eldest members and sorting the CustomerName as descending order (no _id)
 <br>
+![image](https://user-images.githubusercontent.com/63136573/178393336-4f918a1b-bd56-49a6-a12f-5140aa486f34.png)
 
-db.users.find({}).sort({Address: -1})
 
-db.users.find({}, {CustomerName: -1, _id: 0}).sort({Age: -1}).limit(2)
+Enjoy Your Journey!
