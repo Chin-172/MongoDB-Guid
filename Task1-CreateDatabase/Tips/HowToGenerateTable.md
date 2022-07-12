@@ -1,4 +1,8 @@
-To create a table, there is no any directly way to generate a table, however, we can via insert something to table to generate the table at the same time.
+To create a table, beside using `db.createCollection()`, we can also via insert something to table to generate the table at the same time.
+
+```shell
+    db.createCollection(<table_name>)
+```
 
 ```shell
     db.<table_name>.insertOne({object})
